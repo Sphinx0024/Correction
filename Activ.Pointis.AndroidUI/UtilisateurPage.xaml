@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Activ.Pointis.AndroidUI.UtilisateurPage"
+             Title="Employés">
+
+    <Shell.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Employés" FontSize="Large" TextColor="White" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+            <ImageButton Source="Ressources/Images/ajout.jpeg"
+                         HeightRequest="30"
+                         WidthRequest="30"
+                         Margin="-10,10,10,10"
+                         Clicked="AddClick"/>
+            
+        </StackLayout>
+    </Shell.TitleView>
+
+    <VerticalStackLayout>
+
+        <Grid ColumnDefinitions="*"
+              RowDefinitions="Auto,Auto,Auto,Auto">
+
+            <SearchBar x:Name="Recherche"
+                       HorizontalOptions="Center"
+                       WidthRequest="300"
+                       Placeholder="Nom"/>
+
+        </Grid>
+
+        <ListView x:Name="MyListView" ItemsSource="{Binding Data}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Nom}" />
+                            <Label Text="{Binding Prenom}" />
+                            <Label Text="{Binding Telephone}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!--<TableView Intent="Data">
+            <TableRoot>
+                <TableSection Title="[4] Employés">-->
+                    <!--<ImageCell Text="Youssouf OUATTARA"
+                       Detail="youssoufouattara96@outlook.com"
+                       ImageSource="Ressources/Images/manuser.jpeg" />-->
+                    <!--<ImageCell Text="Youssouf OUATTARA"
+                       Detail="youssoufouattara96@outlook.com" />
+                    <ImageCell Text="Dramane OUATTARA"
+                       Detail="dramane.ouattara@outlook.com" />
+                    <ImageCell Text="Pelagie YAO"
+                       Detail="yao.pelagie@outlook.com" />
+                    <ImageCell Text="Raphael COULIBALY"
+                       Detail="raphael.coulibaly@outlook.com" />
+
+                </TableSection>
+            </TableRoot>
+        </TableView>-->
+    </VerticalStackLayout>
+</ContentPage>

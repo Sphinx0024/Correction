@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Activ.Pointis.AndroidUI
+build_property.ProjectDir = D:\source\repos\Pointis\Activ.Pointis.AndroidUI\
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/AccueilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.AccueilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AccueilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AccueilPage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/AddEmployePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.AddEmployePage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddEmployePage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddEmployePage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/AProposPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.AProposPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AProposPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AProposPage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/ScannerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.ScannerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ScannerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ScannerPage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/ScanSortiePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.ScanSortiePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ScanSortiePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ScanSortiePage.xaml
+
+[D:/source/repos/Pointis/Activ.Pointis.AndroidUI/UtilisateurPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Activ.Pointis.AndroidUI.UtilisateurPage.xaml
+build_metadata.AdditionalFiles.TargetPath = UtilisateurPage.xaml
+build_metadata.AdditionalFiles.RelativePath = UtilisateurPage.xaml
